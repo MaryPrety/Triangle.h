@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
+    setlocale(LC_NUMERIC, "en_EN.utf8");
     Triangle mas[3];
     double a, b, c;
     for (int i = 0; i < 3; i++) {
