@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "Russian");
     Triangle mas[3];
     double a, b, c;
     for (int i = 0; i < 3; i++) {
